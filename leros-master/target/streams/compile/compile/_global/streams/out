@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/leros-master/src/main/scala/leros/Leros.scala:15:24: not found: type ChiselEnum[0m
+[0m[[0m[31merror[0m] [0m[0m  object State extends ChiselEnum {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/leros-master/src/main/scala/leros/Leros.scala:16:26: not found: value Value[0m
+[0m[[0m[31merror[0m] [0m[0m    val fetch, execute = Value[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

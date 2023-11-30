@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mjava.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 0[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... ()[0m
+[0m[[0m[31merror[0m] [0m[0m	at leros.Leros$.$anonfun$new$88(Leros.scala:168)[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... ()[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... (Stack trace trimmed to user code only. Rerun with --full-stacktrace to see the full stack trace)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 0[0m
