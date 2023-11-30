@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32i.AluTest, org.scalatest.tools.Framework$$anon$1@1adce12e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32i.DecoderTest, org.scalatest.tools.Framework$$anon$1@1adce12e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32i.MemInstTest, org.scalatest.tools.Framework$$anon$1@1adce12e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32i.PCRegTest, org.scalatest.tools.Framework$$anon$1@1adce12e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32i.RegistersTest, org.scalatest.tools.Framework$$anon$1@1adce12e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPCRegTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPCReg[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMemInstTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMemInst[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32i.TopTest, org.scalatest.tools.Framework$$anon$1@1adce12e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoderTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAluTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mALU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegistersTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegisters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 564 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32i.PCRegTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32i.MemInstTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32i.RegistersTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32i.DecoderTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32i.AluTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32i.TopTest[0m

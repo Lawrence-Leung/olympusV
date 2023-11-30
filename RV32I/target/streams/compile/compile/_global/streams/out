@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:44:27: not found: value IMM_U[0m
+[0m[[0m[31merror[0m] [0m[0m            ctrlImmsrc := IMM_U//立即数拓展[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:52:27: not found: value IMM_J[0m
+[0m[[0m[31merror[0m] [0m[0m            ctrlImmsrc := IMM_J[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:63:31: not found: value IMM_I[0m
+[0m[[0m[31merror[0m] [0m[0m                ctrlImmsrc := IMM_I[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:65:31: not found: value IMM_I[0m
+[0m[[0m[31merror[0m] [0m[0m                ctrlImmsrc := IMM_I[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:80:31: not found: value IMM_SHAMT[0m
+[0m[[0m[31merror[0m] [0m[0m                ctrlImmsrc := IMM_SHAMT[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:95:31: not found: value IMM_I[0m
+[0m[[0m[31merror[0m] [0m[0m                ctrlImmsrc := IMM_I[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:131:27: not found: value IMM_B[0m
+[0m[[0m[31merror[0m] [0m[0m            ctrlImmsrc := IMM_B[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/桌面/RV32I/src/main/scala/rv32i/Decoder.scala:168:27: not found: value IMM_S[0m
+[0m[[0m[31merror[0m] [0m[0m            ctrlImmsrc := IMM_S[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

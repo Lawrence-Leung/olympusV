@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:4:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:5:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:6:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:8:8: not found: object configs[0m
+[0m[[0m[31merror[0m] [0m[0mimport configs.Configs._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:9:8: not found: object utils[0m
+[0m[[0m[31merror[0m] [0m[0mimport utils.OP_TYPES._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:14:9: not found: value OP_NOP[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_NOP,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:15:9: not found: value OP_ADD[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_ADD,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:16:9: not found: value OP_SUB[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_SUB,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:17:9: not found: value OP_AND[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_AND,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:18:9: not found: value OP_OR[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_OR,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:19:9: not found: value OP_XOR[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_XOR,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:20:9: not found: value OP_SLL[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_SLL,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:21:9: not found: value OP_SRL[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_SRL,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:22:9: not found: value OP_SRA[0m
+[0m[[0m[31merror[0m] [0m[0m        OP_SRA,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:34:35: not found: type UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    def alu(a: Long, b: Long, op: UInt, sign: Boolean): (Long, Boolean) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:36:18: not found: value OP_NOP[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_NOP => (0, false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:37:18: not found: value OP_ADD[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_ADD => (a + b, false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:38:18: not found: value OP_SUB[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_SUB => (a - b, false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:39:18: not found: value OP_AND[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_AND => (a & b, false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:40:18: not found: value OP_OR[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_OR  => (a | b, false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:41:18: not found: value OP_XOR[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_XOR => (a ^ b, false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:42:18: not found: value OP_SLL[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_SLL => (a << (b & 0x000000001f), false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:43:18: not found: value OP_SRL[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_SRL => (a >>> (b & 0x000000001f), false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:44:18: not found: value OP_SRA[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_SRA => (a.toInt >> (b & 0x000000001f).toInt, false)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:45:18: not found: value OP_EQ[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_EQ  => (0, a == b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:46:18: not found: value OP_NEQ[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_NEQ => (0, a != b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:47:18: not found: value OP_LT[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_LT => {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:54:18: not found: value OP_GE[0m
+[0m[[0m[31merror[0m] [0m[0m            case OP_GE => {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:65:22: not found: type Alu[0m
+[0m[[0m[31merror[0m] [0m[0m    def testOne(dut: Alu, a: Long, b: Long, op: UInt, sign: Boolean): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:65:49: not found: type UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    def testOne(dut: Alu, a: Long, b: Long, op: UInt, sign: Boolean): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:102:21: not found: type Alu[0m
+[0m[[0m[31merror[0m] [0m[0m    def testFn(dut: Alu): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:114:23: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass AluTest extends AnyFlatSpec with ChiselScalatestTester with AluTestFunc {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:114:40: not found: type ChiselScalatestTester[0m
+[0m[[0m[31merror[0m] [0m[0mclass AluTest extends AnyFlatSpec with ChiselScalatestTester with AluTestFunc {[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:115:11: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "ALU" should "pass" in {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:116:9: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new Alu) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/AluTest.scala:116:18: not found: type Alu[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new Alu) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:4:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:5:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:6:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:8:8: not found: object configs[0m
+[0m[[0m[31merror[0m] [0m[0mimport configs.Configs._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:11:21: not found: type Decoder[0m
+[0m[[0m[31merror[0m] [0m[0m    def testFn(dut: Decoder): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:59:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h011110b7".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:60:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h02222117".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:61:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h004001ef".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:62:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00418267".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:63:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00628263".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:64:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00209263".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:65:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0020c263".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:66:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0020d263".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:67:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0020e263".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:68:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0020f263".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:69:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00410083".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:70:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00811083".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:71:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00412083".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:72:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00814083".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:73:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00c15083".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:74:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00108223".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:75:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00109223".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:76:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0010a223".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:77:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00408093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:78:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0040a093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:79:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0040b093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:80:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0040c093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:81:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0040e093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:82:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0040f093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:83:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h00409093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:84:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0040d093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:85:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h4040d093".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:86:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h002080b3".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:87:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h402080b3".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:88:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h002090b3".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:89:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0020d0b3".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:90:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h4020d0b3".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:91:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0020e0b3".U,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:92:25: value U is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m            "h0020f0b3".U[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:108:13: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m    extends AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:109:10: not found: type ChiselScalatestTester[0m
+[0m[[0m[31merror[0m] [0m[0m    with ChiselScalatestTester[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:111:15: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "Decoder" should "pass" in {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:112:9: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new Decoder) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/DecoderTest.scala:112:18: not found: type Decoder[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new Decoder) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:4:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:5:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:6:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:11:8: not found: object configs[0m
+[0m[[0m[31merror[0m] [0m[0mimport configs.Configs._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:16:18: not found: value MEM_INST_SIZE[0m
+[0m[[0m[31merror[0m] [0m[0m        Seq.fill(MEM_INST_SIZE)(scala.util.Random.nextInt().toLong & 0x00ffffffffL)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:25:24: not found: value MEM_INST_SIZE[0m
+[0m[[0m[31merror[0m] [0m[0m        for (i <- 0 to MEM_INST_SIZE - 1) {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:31:21: not found: type MemInst[0m
+[0m[[0m[31merror[0m] [0m[0m    def testFn(dut: MemInst): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:33:24: not found: value MEM_INST_SIZE[0m
+[0m[[0m[31merror[0m] [0m[0m        for (i <- 0 to MEM_INST_SIZE - 1) {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:40:27: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass MemInstTest extends AnyFlatSpec with ChiselScalatestTester with MemInstTestFunc {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:40:44: not found: type ChiselScalatestTester[0m
+[0m[[0m[31merror[0m] [0m[0mclass MemInstTest extends AnyFlatSpec with ChiselScalatestTester with MemInstTestFunc {[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:41:15: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "MemInst" should "pass" in {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:44:9: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new MemInst(true)) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/MemInstTest.scala:44:18: not found: type MemInst[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new MemInst(true)) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/PCRegTest.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/PCRegTest.scala:3:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/PCRegTest.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Desktop/RV32I/src/test/scala/PCRegTest.scala:5:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m

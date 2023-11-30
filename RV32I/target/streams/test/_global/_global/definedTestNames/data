@@ -1,0 +1,1 @@
+["rv32i.PCRegTest","rv32i.MemInstTest","rv32i.RegistersTest","rv32i.DecoderTest","rv32i.AluTest","rv32i.TopTest"]

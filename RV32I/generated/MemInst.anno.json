@@ -1,0 +1,30 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"MemInst.MemInst.mem",
+    "fileName":"src/test/scala/rv32isc/MemInst.hex",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"mem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"generated"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~MemInst|MemInst>io_inst",
+    "sources":[
+      "~MemInst|MemInst>io_addr"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxInlineAnno",
+    "target":"MemInst.MemInst",
+    "name":"MemInst.MemInst.mem.v",
+    "text":"module BindsTo_0_MemInst(\n  input         clock,\n  input         reset,\n  input  [3:0]  io_addr,\n  output [31:0] io_inst\n);\n\ninitial begin\n  $readmemh(\"src/test/scala/rv32isc/MemInst.hex\", MemInst.mem);\nend\n                      endmodule\n\nbind MemInst BindsTo_0_MemInst BindsTo_0_MemInst_Inst(.*);"
+  }
+]

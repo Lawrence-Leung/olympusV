@@ -1,0 +1,20 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"generated"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~MemData|MemData>io_result",
+    "sources":[
+      "~MemData|MemData>io_bundleMemDataControl_ctrlLoad",
+      "~MemData|MemData>io_resultALU",
+      "~MemData|MemData>io_bundleMemDataControl_ctrlLSType",
+      "~MemData|MemData>io_bundleMemDataControl_ctrlSigned"
+    ]
+  }
+]
