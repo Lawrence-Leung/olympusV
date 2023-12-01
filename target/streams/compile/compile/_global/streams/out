@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/main/scala/EDA/Karatsuba32x32.scala:34:10: not found: value Ka132_4[0m
+[0m[[0m[31merror[0m] [0m[0m    ad:= Ka132_4.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/main/scala/EDA/Karatsuba32x32.scala:40:5: not found: value C[0m
+[0m[[0m[31merror[0m] [0m[0m    C:= T1 + T0 + psum[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/main/scala/EDA/Karatsuba32x32.scala:41:14: not found: value C[0m
+[0m[[0m[31merror[0m] [0m[0m    io.out:= C[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

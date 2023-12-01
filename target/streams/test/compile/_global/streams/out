@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:29:24: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : EDA.Karatsuba1[0m
+[0m[[0m[31merror[0m] [0m[0m required: EDA.Karatsuba[0m
+[0m[[0m[31merror[0m] [0m[0m                testFn(dut)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

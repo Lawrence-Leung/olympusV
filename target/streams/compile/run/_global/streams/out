@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0mchisel3.package$ExpectedHardwareException: reg initializer 'UInt<32>' must be hardware, not a bare Chisel type. Perhaps you forgot to wrap it in Wire(_) or IO(_)?[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... ()[0m
+[0m[[0m[31merror[0m] [0m[0m	at Karatsuba.$anonfun$T0$2(Karatsuba.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.internal.prefix$.apply(prefix.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Karatsuba.$anonfun$T0$1(Karatsuba.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.internal.plugin.package$.autoNameRecursively(package.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Karatsuba.<init>(Karatsuba.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Karatsuba$.$anonfun$new$8(Karatsuba.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... ()[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... (Stack trace trimmed to user code only. Rerun with --full-stacktrace to see the full stack trace)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) chisel3.package$ExpectedHardwareException: reg initializer 'UInt<32>' must be hardware, not a bare Chisel type. Perhaps you forgot to wrap it in Wire(_) or IO(_)?[0m

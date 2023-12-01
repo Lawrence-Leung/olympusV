@@ -1,0 +1,34 @@
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:3:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:4:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:5:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:11:20: not found: type Karatsuba[0m
+[0m[[0m[31merror[0m] [0m[0m    def testFn(dut:Karatsuba):Unit ={[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:23:29: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass KaratsubaTest extends AnyFlatSpec with ChiselScalatestTester with KaratsubaTestFunc{[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:23:46: not found: type ChiselScalatestTester[0m
+[0m[[0m[31merror[0m] [0m[0mclass KaratsubaTest extends AnyFlatSpec with ChiselScalatestTester with KaratsubaTestFunc{[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:24:16: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "Karatsuba"should "pass" in{[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:25:9: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new (Karatsuba)).withAnnotations(Seq(WriteVcdAnnotation)){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:25:19: not found: type Karatsuba[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new (Karatsuba)).withAnnotations(Seq(WriteVcdAnnotation)){[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fufu/Code/chisel-examples-master/EDA/src/test/scala/KaratsubaTest.scala:25:51: not found: value WriteVcdAnnotation[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new (Karatsuba)).withAnnotations(Seq(WriteVcdAnnotation)){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m
