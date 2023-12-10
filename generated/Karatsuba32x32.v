@@ -3,13 +3,13 @@ module Karatsuba2x2(
   input  [1:0] io_b,
   output [3:0] io_out
 );
-  wire  _temp_T_2 = io_a[1] & io_b[0]; // @[Karatsuba2x2.scala 16:19]
-  wire  _temp_T_5 = io_a[0] & io_b[1]; // @[Karatsuba2x2.scala 16:37]
-  wire  temp = io_a[1] & io_b[0] & (io_a[0] & io_b[1]); // @[Karatsuba2x2.scala 16:28]
-  wire  _io_out_T_3 = temp & (io_a[1] & io_b[1]); // @[Karatsuba2x2.scala 21:22]
-  wire  _io_out_T_7 = temp ^ io_a[1] & io_b[1]; // @[Karatsuba2x2.scala 21:45]
-  wire  _io_out_T_14 = _temp_T_2 ^ _temp_T_5; // @[Karatsuba2x2.scala 21:81]
-  wire  _io_out_T_17 = io_a[0] & io_b[0]; // @[Karatsuba2x2.scala 21:107]
+  wire  _temp_T_2 = io_a[1] & io_b[0]; // @[Karatsuba2x2.scala 12:19]
+  wire  _temp_T_5 = io_a[0] & io_b[1]; // @[Karatsuba2x2.scala 12:37]
+  wire  temp = io_a[1] & io_b[0] & (io_a[0] & io_b[1]); // @[Karatsuba2x2.scala 12:28]
+  wire  _io_out_T_3 = temp & (io_a[1] & io_b[1]); // @[Karatsuba2x2.scala 13:22]
+  wire  _io_out_T_7 = temp ^ io_a[1] & io_b[1]; // @[Karatsuba2x2.scala 13:45]
+  wire  _io_out_T_14 = _temp_T_2 ^ _temp_T_5; // @[Karatsuba2x2.scala 13:81]
+  wire  _io_out_T_17 = io_a[0] & io_b[0]; // @[Karatsuba2x2.scala 13:107]
   wire [1:0] io_out_lo = {_io_out_T_14,_io_out_T_17}; // @[Cat.scala 31:58]
   wire [1:0] io_out_hi = {_io_out_T_3,_io_out_T_7}; // @[Cat.scala 31:58]
   assign io_out = {io_out_hi,io_out_lo}; // @[Cat.scala 31:58]
@@ -196,7 +196,9 @@ module Karatsuba32x32(
   output [63:0] io_out
 );
 `ifdef RANDOMIZE_REG_INIT
-  reg [63:0] _RAND_0;
+  reg [31:0] _RAND_0;
+  reg [31:0] _RAND_1;
+  reg [63:0] _RAND_2;
 `endif // RANDOMIZE_REG_INIT
   wire [15:0] Ka32_1_io_a; // @[Karatsuba32x32.scala 11:22]
   wire [15:0] Ka32_1_io_b; // @[Karatsuba32x32.scala 11:22]
@@ -210,19 +212,21 @@ module Karatsuba32x32(
   wire [15:0] Ka32_4_io_a; // @[Karatsuba32x32.scala 14:22]
   wire [15:0] Ka32_4_io_b; // @[Karatsuba32x32.scala 14:22]
   wire [31:0] Ka32_4_io_out; // @[Karatsuba32x32.scala 14:22]
-  reg [63:0] C; // @[Karatsuba32x32.scala 15:18]
+  reg [31:0] a; // @[Karatsuba32x32.scala 16:18]
+  reg [31:0] b; // @[Karatsuba32x32.scala 17:18]
+  reg [63:0] C; // @[Karatsuba32x32.scala 18:18]
   wire [63:0] bc = {{32'd0}, Ka32_3_io_out};
   wire [63:0] ad = {{32'd0}, Ka32_4_io_out};
-  wire [63:0] _psum_T_1 = bc + ad; // @[Karatsuba32x32.scala 39:17]
+  wire [63:0] _psum_T_1 = bc + ad; // @[Karatsuba32x32.scala 44:17]
   wire [79:0] _psum_T_2 = {_psum_T_1,16'h0}; // @[Cat.scala 31:58]
   wire [63:0] ac = {{32'd0}, Ka32_2_io_out};
   wire [95:0] _T0_T = {ac,32'h0}; // @[Cat.scala 31:58]
   wire [63:0] bd = {{32'd0}, Ka32_1_io_out};
   wire [63:0] T0 = _T0_T[63:0];
-  wire [63:0] _C_T_1 = bd + T0; // @[Karatsuba32x32.scala 41:12]
+  wire [63:0] _C_T_1 = bd + T0; // @[Karatsuba32x32.scala 46:12]
   wire [48:0] psum = _psum_T_2[48:0];
-  wire [63:0] _GEN_0 = {{15'd0}, psum}; // @[Karatsuba32x32.scala 41:17]
-  wire [63:0] _C_T_3 = _C_T_1 + _GEN_0; // @[Karatsuba32x32.scala 41:17]
+  wire [63:0] _GEN_0 = {{15'd0}, psum}; // @[Karatsuba32x32.scala 46:17]
+  wire [63:0] _C_T_3 = _C_T_1 + _GEN_0; // @[Karatsuba32x32.scala 46:17]
   Karatsuba16x16 Ka32_1 ( // @[Karatsuba32x32.scala 11:22]
     .io_a(Ka32_1_io_a),
     .io_b(Ka32_1_io_b),
@@ -243,20 +247,30 @@ module Karatsuba32x32(
     .io_b(Ka32_4_io_b),
     .io_out(Ka32_4_io_out)
   );
-  assign io_out = C; // @[Karatsuba32x32.scala 42:11]
-  assign Ka32_1_io_a = io_a[15:0]; // @[Karatsuba32x32.scala 21:24]
-  assign Ka32_1_io_b = io_b[15:0]; // @[Karatsuba32x32.scala 22:24]
-  assign Ka32_2_io_a = io_a[31:16]; // @[Karatsuba32x32.scala 25:24]
-  assign Ka32_2_io_b = io_b[31:16]; // @[Karatsuba32x32.scala 26:24]
-  assign Ka32_3_io_a = io_a[15:0]; // @[Karatsuba32x32.scala 29:24]
-  assign Ka32_3_io_b = io_b[31:16]; // @[Karatsuba32x32.scala 30:24]
-  assign Ka32_4_io_a = io_a[31:16]; // @[Karatsuba32x32.scala 33:24]
-  assign Ka32_4_io_b = io_b[15:0]; // @[Karatsuba32x32.scala 34:24]
+  assign io_out = C; // @[Karatsuba32x32.scala 47:11]
+  assign Ka32_1_io_a = a[15:0]; // @[Karatsuba32x32.scala 26:21]
+  assign Ka32_1_io_b = b[15:0]; // @[Karatsuba32x32.scala 27:21]
+  assign Ka32_2_io_a = a[31:16]; // @[Karatsuba32x32.scala 30:21]
+  assign Ka32_2_io_b = b[31:16]; // @[Karatsuba32x32.scala 31:21]
+  assign Ka32_3_io_a = a[15:0]; // @[Karatsuba32x32.scala 34:21]
+  assign Ka32_3_io_b = b[31:16]; // @[Karatsuba32x32.scala 35:21]
+  assign Ka32_4_io_a = a[31:16]; // @[Karatsuba32x32.scala 38:21]
+  assign Ka32_4_io_b = b[15:0]; // @[Karatsuba32x32.scala 39:21]
   always @(posedge clock) begin
-    if (reset) begin // @[Karatsuba32x32.scala 15:18]
-      C <= 64'h0; // @[Karatsuba32x32.scala 15:18]
+    if (reset) begin // @[Karatsuba32x32.scala 16:18]
+      a <= 32'h0; // @[Karatsuba32x32.scala 16:18]
     end else begin
-      C <= _C_T_3; // @[Karatsuba32x32.scala 41:6]
+      a <= io_a; // @[Karatsuba32x32.scala 24:7]
+    end
+    if (reset) begin // @[Karatsuba32x32.scala 17:18]
+      b <= 32'h0; // @[Karatsuba32x32.scala 17:18]
+    end else begin
+      b <= io_b; // @[Karatsuba32x32.scala 25:7]
+    end
+    if (reset) begin // @[Karatsuba32x32.scala 18:18]
+      C <= 64'h0; // @[Karatsuba32x32.scala 18:18]
+    end else begin
+      C <= _C_T_3; // @[Karatsuba32x32.scala 46:6]
     end
   end
 // Register and memory initialization
@@ -295,8 +309,12 @@ initial begin
       `endif
     `endif
 `ifdef RANDOMIZE_REG_INIT
-  _RAND_0 = {2{`RANDOM}};
-  C = _RAND_0[63:0];
+  _RAND_0 = {1{`RANDOM}};
+  a = _RAND_0[31:0];
+  _RAND_1 = {1{`RANDOM}};
+  b = _RAND_1[31:0];
+  _RAND_2 = {2{`RANDOM}};
+  C = _RAND_2[63:0];
 `endif // RANDOMIZE_REG_INIT
   `endif // RANDOMIZE
 end // initial

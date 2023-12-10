@@ -16,7 +16,7 @@ class Karatsuba16x16 extends Module{
     val T1=WireDefault(0.U(32.W))
     val ac,bc,ad,bd=WireDefault(0.U(32.W))
     val psum=WireDefault(0.U(25.W))
-
+    
     Ka16_1.io.a := io.a(7,0)
     Ka16_1.io.b := io.b(7,0)
     bd := Ka16_1.io.out
